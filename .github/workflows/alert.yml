@@ -29,7 +29,7 @@ jobs:
           TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
           SYMBOL: OPENAI
           PRICE_FIELD: mark_price
-          SPREAD_USD: "10.0"
+          SPREAD_USD: "2.0"
         run: python3 alert.py
 
       - name: Save state
